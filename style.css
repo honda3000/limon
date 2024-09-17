@@ -152,6 +152,7 @@ main {
     width: 50%;
     justify-content: center;
     align-items: center;
+    color: #0E401F;
 }
 
 .tarjeta {
@@ -345,9 +346,9 @@ footer {
   .clash-card__image--barbarian {
     background: url("");
     img {
-      width: 400px;
+      width: 500px;
       position: absolute;    
-      top: -65px;
+      top: -190px;
       left: -70px;
     }
   }
