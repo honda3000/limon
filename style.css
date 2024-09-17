@@ -20,8 +20,7 @@ body {
     line-height: 1.6;
     background: rgb(36,36,0);
     background: linear-gradient(90deg, rgba(36,36,0,0.4290966386554622) 0%, rgba(9,121,11,1) 41%, rgba(232,255,0,0.6783963585434174) 83%);
-    background-attachment: fixed;
-    background-size: cover;
+    
     
 }
 
@@ -351,6 +350,11 @@ footer {
       top: -190px;
       left: -70px;
     }
+  }
+
+  .footer{
+    height: 30vh;
+    background:rgba(153, 200, 0, 0.5);
   }
   
   
