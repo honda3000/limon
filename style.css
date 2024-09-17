@@ -1,17 +1,22 @@
+@import url("./images/Howdy\ Lemon.ttf");
+@font-face {
+  font-family: 'lemon';
+  src: url('./images/Howdy\ Lemon.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-.protest-guerrilla-regular {
-    font-family: "Protest Guerrilla", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+
 
 body {
-    font-family: Protest Guerrilla, sans-serif;
+    font-family: 
+    lemon, sans-serif;
     line-height: 1.6;
     background: rgb(36,36,0);
     background: linear-gradient(90deg, rgba(36,36,0,0.4290966386554622) 0%, rgba(9,121,11,1) 41%, rgba(232,255,0,0.6783963585434174) 83%);
@@ -151,7 +156,7 @@ main {
 
 .tarjeta {
     display: flex;
-    background-color: #f7f7f7;
+    background:rgba(153, 200, 0, 0.5);
     padding: 1em;
     margin: 20px;
     width: calc(90% - 20px);
@@ -160,7 +165,7 @@ main {
 }
 
 .tarjeta h2 {
-    color: #333;
+    color: #0E401F;
     margin-bottom: 10px;
 }
 
@@ -190,9 +195,11 @@ footer {
     margin-top: 90px;
 	background-color: #ccc;
     box-shadow: #333;
+    border-radius: 7px;
 }
 .slider{
 	display: none;
+    border-radius: 7px;
 	animation: zoomIn 1s linear;
 }
 @keyframes zoomIn{
@@ -213,6 +220,7 @@ footer {
 
 .img{
 	vertical-align: middle;
+    border-radius: 7px;
 }
 
 .text{
@@ -322,6 +330,7 @@ footer {
     box-shadow: -1px 15px 30px -12px black;
     z-index: 9999;
     padding: 30px;
+    color: #0E401F;
   }
   
   .clash-card__image {
@@ -334,7 +343,7 @@ footer {
   }
   
   .clash-card__image--barbarian {
-    background: url("./images/lemon.png");
+    background: url("");
     img {
       width: 400px;
       position: absolute;    
