@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Web Responsiva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <title>Lemon</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -17,17 +20,17 @@
                 <a href="#">LOGO</a>
             </div>
             <div class="menu">
-                <div >
-                   
-                    <a href="about"><button class="btn">
-                        
-                           About
+                <div>
+
+                    <a style="text-decoration: none;" href="about"><button class="btn">
+
+                            About
                         </button></a>
-                        <a href="road"><button class="btn">
+                    <a style="text-decoration: none; transition: 0.2s ease-in;" href="#road"><button class="btn">
                             Road Map
                         </button></a>
-                        
-                    
+
+
                 </div>
                 <button class="log-in">BUY</button>
             </div>
@@ -36,7 +39,7 @@
             </div>
         </nav>
     </header>
-    
+
     <main>
 
         <div class="container">
@@ -70,11 +73,25 @@
             <div class="dot"></div>
             <div class="dot"></div>
         </div>
-
+        <div class="wrapper" id="about">
+            <div class="clash-card barbarian">
+              <div class="clash-card__image clash-card__image--barbarian">
+                <img src="./images/lemon.png" alt="barbarian" />
+              </div>
+              <div class="clash-card__level clash-card__level--barbarian">$lemon</div>
+              <div class="clash-card__unit-name">Lemon</div>
+              <div class="clash-card__unit-description">
+                The Barbarian is a kilt-clad Scottish warrior with an angry, battle-ready expression, hungry for destruction. He has Killer yellow horseshoe mustache.
+              </div>
+        
+             
+        
+            </div> <!-- end -->
+          </div>
         <section class="tarjetas" id="road">
             <article class="tarjeta">
                 <div class="card">
-                    <h3>Tarjeta 1</h3>
+                    <h3>1</h3>
 
 
                 </div>
@@ -84,18 +101,44 @@
 
             </article>
             <article class="tarjeta">
-                <h2>Tarjeta 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="card">
+                    <img class="img" src="./images/lemon.png">
+                </div>
+                <div class="card">
+                    <h3>2</h3>
+
+
+                </div>
+                
+
             </article>
             <article class="tarjeta">
-                <h2>Tarjeta 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="card">
+                    <h3>3</h3>
+
+
+                </div>
+                <div class="card">
+                    <img class="img" src="./images/lemon.png">
+                </div>
+
+            </article>
+            <article class="tarjeta">
+                <div class="card">
+                    <img class="img" src="./images/lemon.png">
+                </div>
+                <div class="card">
+                    <h3>4</h3>
+
+
+                </div>
+                
+
             </article>
         </section>
+      
     </main>
-    <footer>
-        <p>&copy; 2024 Página Web Responsiva</p>
-    </footer>
+    
     <script src="script.js" defer></script>
 </body>
 

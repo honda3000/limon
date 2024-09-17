@@ -2,21 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Protest Guerrilla, sans-serif;
     line-height: 1.6;
     background-image: url("./images/wall2.jpeg");
     background-attachment: fixed;
     background-size: cover;
+    
 }
 
 header {
-    background-color: #333;
+   
     color: #fff;
     padding: 1em;
     text-align: center;
+    
 }
 
 .navbar {
@@ -25,14 +33,14 @@ header {
     left: 0;
     width: 100%;
     height: 90px;
-    background-color: #D4D93D;
+    background:rgba(153, 200, 0, 0.5);
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: transform 0.5s ease;
+    
     z-index: 3;
-    box-shadow: 20px rgba(0, 0, 0, 0.778);;
+    box-shadow: -1px 15px 30px -12px black;
   }
   
   .navbar .logo i {
@@ -74,13 +82,13 @@ header {
     font-weight: 500;
     padding: 12px 22px;
     background-color: transparent;
-    color: #999999;
+    color: #344f01;
     border-radius: 10px;
-    border: 2px solid #0aa5ff;
+    border: 2px solid #344f01;
     transition: 0.2s;
   }
   .log-in:hover {
-    background-color: #0aa5ff;
+    background-color: #8BD600;
     color: white;
   }
   
@@ -147,6 +155,7 @@ main {
     margin: 20px;
     width: calc(90% - 20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
 }
 
 .tarjeta h2 {
@@ -240,7 +249,7 @@ footer {
     font-size: 18px;
     padding: 0.8rem 3rem;
     background-color: #fefefe;
-    color: black;
+    color: #344f01;
     line-height: 1.5;
     font-weight: 600;
     border: 2px solid white;
@@ -250,6 +259,7 @@ footer {
     z-index: 0;
     cursor: pointer;
     text-decoration: none;
+    width: 100px;
   }
   
   .btn::before,
@@ -257,7 +267,7 @@ footer {
     content: "";
     position: absolute;
     background: #000;
-    background: hsl(191, 80%, 43%);
+    background: #8BD600;
     width: 100%;
     height: 102%;
     pointer-events: none;
@@ -280,6 +290,55 @@ footer {
   .btn:hover::before,
   .btn:hover::after {
     transform: skew(30deg) translateY(calc(var(--direction) * 100%));
+  }
+
+
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    &:focus {
+      outline: 0;
+    }
+  }
+  
+  
+  
+  .clash-card {
+    background:rgba(153, 200, 0, 0.5);
+    
+    width: 70%;
+    display: inline-block;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+    padding: 30px;
+  }
+  
+  .clash-card__image {
+    
+    position: relative;
+    height: 230px;
+    margin-bottom: 35px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+  
+  .clash-card__image--barbarian {
+    background: url("./images/lemon.png");
+    img {
+      width: 400px;
+      position: absolute;    
+      top: -65px;
+      left: -70px;
+    }
   }
   
   
