@@ -18,9 +18,8 @@ body {
     font-family: 
     lemon, sans-serif;
     line-height: 1.6;
-    background: rgb(36,36,0);
-    background: linear-gradient(90deg, rgba(36,36,0,0.4290966386554622) 0%, rgba(9,121,11,1) 41%, rgba(232,255,0,0.6783963585434174) 83%);
-    
+    background: rgb(9,121,11);
+background: linear-gradient(90deg, rgba(9,121,11,1) 7%, rgba(12,168,15,1) 41%, rgba(232,255,0,0.6783963585434174) 83%);
     
 }
 
@@ -212,8 +211,8 @@ footer {
 
 .container{
 	width: 100%;
-    margin-top: 90px;
-	background-color: #ccc;
+    margin-top: 80px;
+	
     box-shadow: #333;
     border-radius: 7px;
 }
@@ -229,6 +228,9 @@ footer {
 	to{
 		opacity: 1;
 	}
+}
+.slider img{
+    border-radius: 7px; 
 }
 
 .header{
@@ -341,9 +343,9 @@ footer {
   .clash-card {
     background:rgba(153, 200, 0, 0.5);
     height: 90vh;
-    width: 80%;
+    width: calc(90% - 20px);
     display: inline-block;
-    margin: auto;
+    
     border-radius: 15px;
     position: relative;
     text-align: center;
@@ -437,10 +439,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 150px;
     background:rgba(153, 200, 0, 0.5);
     box-shadow: 0px -15px 30px -12px black;
-    width: 100%;
+    width: calc(90% - 20px);
   }
   
   
